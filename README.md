@@ -21,7 +21,7 @@ A CLI wrapper for [Unleashed.chat](https://unleashed.chat)'s chatbot service.
    `git clone https://github.com/reecehunter/unleashed-chat`
 
 2. Enter the directory.
-   `cd unleashed-chat-cli`
+   `cd unleashed-chat`
 
 3. Install it.
    `pip install .`
@@ -37,9 +37,11 @@ Once in the app, you can use the following commands instead of asking the chatbo
   - Display a list of the possible commands.
 - `/reset`
   - Clear the conversation memory to start a new session.
-- `/modules`
-  - Display a list of the available modules.
-- `/setmodule`
+- `/model`
+  - Display the current model being used.
+- `/model`
+  - Display a list of the available models.
+- `/setmodel`
   - Prompts you to input the model to use.
 - `/exit`
   - Exit out of the application cleanly.

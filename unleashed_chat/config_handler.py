@@ -59,3 +59,4 @@ def get_api_key():
         print("No 'Unleashed' section in the configuration file.")
     except configparser.NoOptionError:
         print("No API key found. Starting setup.")
+        request_api_key()
