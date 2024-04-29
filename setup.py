@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='unleashed-chat',
-    version='0.1.1',
+    version='0.1.2',
     author="Reece Hunter",
     description="A CLI wrapper for Unleashed.chat's chatbot service.",
     long_description=open('README.md').read(),
