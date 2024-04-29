@@ -39,7 +39,7 @@ Once in the app, you can use the following commands instead of asking the chatbo
   - Clear the conversation memory to start a new session.
 - `/model`
   - Display the current model being used.
-- `/model`
+- `/models`
   - Display a list of the available models.
 - `/setmodel`
   - Prompts you to input the model to use.
