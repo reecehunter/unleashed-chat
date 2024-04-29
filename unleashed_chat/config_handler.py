@@ -4,6 +4,8 @@ import configparser
 def get_config():
     config = configparser.ConfigParser()
     config.read('config.ini')
+    if 'Unleashed' not in config:
+        config.add_section('Unleashed')
     return config
 
 # Requests the user to input their Unleashed API key.
