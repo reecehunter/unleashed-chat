@@ -17,8 +17,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-        'openai',
-        'python-dotenv',
+        'openai'
     ],
     entry_points={
         'console_scripts': [
