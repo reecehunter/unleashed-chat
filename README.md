@@ -15,6 +15,20 @@ A CLI wrapper for [Unleashed.chat](https://unleashed.chat)'s chatbot service.
 
 3. Ask the chatbot whatever you want!
 
+## Build it yourself
+
+1. Clone the repository.
+   `git clone https://github.com/reecehunter/unleashed-chat`
+
+2. Enter the directory.
+   `cd unleashed-chat-cli`
+
+3. Install it.
+   `pip install .`
+
+4. Use from CLI.
+   `unleashed-chat`
+
 ## Commands
 
 Once in the app, you can use the following commands instead of asking the chatbot something.
@@ -36,6 +50,8 @@ Once in the app, you can use the following commands instead of asking the chatbo
   - Display information about Unleashed Chat CLI including a description and flags.
 - `--set-api-key`
   - Prompts you to enter your [Unleashed.chat](https://unleashed.chat) API key to be saved within the application.
+- `--set-model`
+  - Prompts you to enter the model you want to use. List available models by running the application and using the `/models` command.
 
 ## Contributing
 
